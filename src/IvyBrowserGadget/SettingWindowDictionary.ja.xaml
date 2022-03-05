@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="windowTitle">設定</system:String>
+
+
+    <system:String x:Key="checkboxLockUIWhenStartApp">UIをロックした状態で起動</system:String>
+    <system:String x:Key="checkboxAutoCheckUpdate">起動時に1日に1回更新チェック</system:String>
+
+    <system:String x:Key="buttonApply">適用</system:String>
+    <system:String x:Key="buttonClose">閉じる</system:String>
+    <system:String x:Key="buttonSaveAs">保存...</system:String>
+    <system:String x:Key="buttonShortcut">ショートカット...</system:String>
+
+    <system:String x:Key="tooltipSaveAs">名前を付けて設定を保存</system:String>
+    <system:String x:Key="tooltipShortcut">現在の設定を利用したショートカットをデスクトップに作成する。設定を切り替えて使うのが容易になります</system:String>
+
+
+    <system:String x:Key="InputTextCreateShortcut_Title">ショートカットファイルの作成</system:String>
+    <system:String x:Key="InputTextCreateShortcut_Label" xml:space="preserve">ファイル名を入力してください。ショートカットファイルはデスクトップに作成されます。&#13;設定ファイル: </system:String>
+
+    <system:String x:Key="MessageBoxCreateShortcutOverwrite_Text" xml:space="preserve">同じ名前のショットカットがあります。上書きしますか？</system:String>
+    <system:String x:Key="MessageBoxCreateShortcutOverwrite_Title" xml:space="preserve">ショートカットファイルの保存</system:String>
+
+
+    <system:String x:Key="labelZoom">ズーム (100% = 1.0)</system:String>
+    <system:String x:Key="labelRefreshTimeMin">更新間隔 (分)(ゼロで更新しない)</system:String>
+
+
+</ResourceDictionary>

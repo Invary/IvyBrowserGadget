@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Invary.IvyBrowserGadget</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\find.png" />
+    <None Remove="image\Lock_16x.png" />
+    <None Remove="image\setting.png" />
+    <None Remove="image\StatusInformation.png" />
+    <None Remove="image\Unlock_16x.png" />
+    <None Remove="Utility\image\donation\donation_bsc.png" />
+    <None Remove="Utility\image\donation\donation_btc.png" />
+    <None Remove="Utility\image\donation\donation_kofi.png" />
+    <None Remove="Utility\image\donation\paypayqr.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Link="LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\README.md" Link="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1108.44" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\Lock_16x.png" />
+    <Resource Include="image\setting.png" />
+    <Resource Include="image\StatusInformation.png" />
+    <Resource Include="image\Unlock_16x.png" />
+    <Resource Include="Utility\image\donation\donation_bsc.png" />
+    <Resource Include="Utility\image\donation\donation_btc.png" />
+    <Resource Include="Utility\image\donation\donation_kofi.png" />
+    <Resource Include="Utility\image\donation\paypayqr.png" />
+  </ItemGroup>
+
+</Project>
